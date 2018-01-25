@@ -33,7 +33,7 @@ a {
 }
 
 main {
-  margin: 0 15% 0;
+  margin: 0 30% 0;
 }
 
 .meowcome {
@@ -52,12 +52,13 @@ h1 {
   font-family: sans-serif;
   color: white;
   font-weight: bold;
-  padding: 20px;
+  padding: 14px;
+  padding-right: 5px;
 }
 
 section.cats {
   background-color: #fad165;
-  padding: 30px 10px 30px;
+  padding: 30px 15px 30px;
 }
 
 section.products {
@@ -69,7 +70,7 @@ section.products {
 img.kitty {
   width: 30%;
   border: 2px solid black;
-  margin: 5px;
+  margin: 8px;
 }
 
 div.virtue {
@@ -79,4 +80,21 @@ div.virtue {
   color: #ef466f;
   font-weight: bold;
   padding: 30px;
+}
+
+section.virtues {
+  background-color: #26547b;
+  color: white;
+  padding: 15px;
+  margin: 0px;
+}
+
+footer {
+background-color: #35d6a0;
+overflow: hidden;
+}
+
+p.footer {
+  float: right;
+  padding-right: 10px;
 }
